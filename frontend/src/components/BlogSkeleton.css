@@ -1,0 +1,104 @@
+/* Base animation for skeleton loading */
+@keyframes pulse {
+    0% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.6;
+    }
+}
+
+.skeleton-animate {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Common styles for skeleton boxes */
+.skeleton-box {
+    background-color: #e2e2e2;
+    border-radius: 4px;
+}
+
+/* Author name skeleton */
+.skeleton-author {
+    height: 24px;
+    width: 128px;
+}
+
+/* Date skeleton */
+.skeleton-date {
+    height: 16px;
+    width: 96px;
+}
+
+/* Likes icon skeleton */
+.skeleton-icon {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+/* Likes count skeleton */
+.skeleton-likes-count {
+    height: 24px;
+    width: 24px;
+}
+
+/* Title skeleton */
+.skeleton-title {
+    height: 32px;
+    width: 75%;
+    margin-bottom: 16px;
+}
+
+/* Content lines container */
+.skeleton-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/* Content lines */
+.skeleton-line {
+    height: 16px;
+}
+
+.skeleton-line.full-width {
+    width: 100%;
+}
+
+.skeleton-line.partial-width-1 {
+    width: 83.33%;
+}
+
+.skeleton-line.partial-width-2 {
+    width: 66.67%;
+}
+
+/* Container layouts */
+.blog-user-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.buc-top {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.buc-likes {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Blog container */
+.blog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

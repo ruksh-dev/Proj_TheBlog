@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+.comment-editor-container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.comment-render-container {
+    display: inline-flex;
+}
+
+/* .editor{
+  background-color:whitesmoke;
+  min-height:300px;
+  min-width:800px;
+  border:1px solid black;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+  "wdth" 100;
+} */
+.editor {
+  width: 96%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  cursor: text;
+  padding: 5px;
+  border-radius: 2px;
+  box-shadow: inset 0px 1px 8px -3px #ababab;
+  background: #fefefe;
+  font-family: sans-serif;
+}
+
+.editor :global(.public-DraftEditor-content) {
+  min-height: 240px;
+}
+
+.headlineButtonWrapper {
+  display: inline-block;
+}
+
+.headlineButton {
+  background: #fbfbfb;
+  color: #888;
+  font-size: 18px;
+  border: 0;
+  padding-top: 5px;
+  vertical-align: bottom;
+  height: 34px;
+  width: 36px;
+}
+
+.headlineButton:hover,
+.headlineButton:focus {
+  background: #f3f3f3;
+}
+/* Custom styles for the emoji button to match static toolbar buttons */
+.emoji-button .draft-js-emoji-plugin__emojiSelectButton {
+  padding: 0;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+.emoji-button .draft-js-emoji-plugin__emojiSelectButton:hover {
+  background: #f3f3f3;
+}
+
+/* Remove any wrapper margins/padding from emoji select */
+.draft-js-emoji-plugin__emojiSelect {
+  margin: 0;
+  padding: 0;
+  height: auto;
+  display: inline-flex;
+}
+
+/* Ensure popup appears above editor */
+.draft-js-emoji-plugin__emojiSuggestionsPopover {
+  z-index: 1000;
+}
+.editor-post-btn {
+    width: 93%;
+    justify-content: center;
+    padding: 6px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+.editor-post-btn:hover {
+    background-color: #C2D8D3;
+}
+.editor-post-btn img {
+    width: 20px;
+    height: 20px;
+}
+.editor-post-btn button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    background-color: transparent;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+

@@ -1,0 +1,15 @@
+@keyframes msgSlideInLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateX(0);
+        opacity: 1;
+      }
+}
+
+.msg-animate {
+  left: 0;
+  animation: msgSlideInLeft 0.3s ease-out;
+}
