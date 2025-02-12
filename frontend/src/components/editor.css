@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+/* Apply Open Sans font and fixed font size to the editor content */
+.rdw-editor-main {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px; /* Adjust this value to your desired font size */
+}
+
+.editor-class{
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); */
+  min-height: 400px;
+  width: 850px;
+  /* border-radius: 0.2rem; */
+  border:2px solid #BFBDBD;
+  padding: 5px;
+  background-color: whitesmoke;
+}
+
+.rdw-editor-toolbar.toolbar-class {
+  /* background-color: #101d0d; */
+  /* background-color: rgb(52,86,120); */
+  background-color: #00355d;
+  background-color: #3d5a80;
+  /* border-radius: 0.3rem; */
+  margin-bottom: 2%;
+  padding:2%;
+}
+.toolbar-class{
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); */
+  max-width: 837px;
+}
+
+.wrapper-class{
+  background-color: whitesmoke;
+  padding: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  box-shadow: rgb(171, 171, 171) 0px 1px 8px -3px inset;
+  border:0.8px solid rgb(221, 221, 221);
+  border-radius: 0.2rem;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height:100vh;
+  background-color:#dee2e6;
+}
+.custom-video-class{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 12px;
+  max-height: 1px;
+  border: 1px solid #F1F1F1;
+  padding: 15px;
+  margin: 0;
+  border-radius: 2px;
+  z-index: 100;
+  background: white;
+}
+.custom-video-class:hover{
+  box-shadow: 3px 3px 5px #BFBDBD;
+}
+.video-class{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#htmlContainer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  width:845px;
+}
+

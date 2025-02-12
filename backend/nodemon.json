@@ -1,0 +1,6 @@
+{
+ "exec": "tsc -b && concurrently \"node dist/index.js\" \"node dist/middlewares/worker.js\"",
+  "ext": "ts",
+  "watch": ["src/**/*"]
+}
+

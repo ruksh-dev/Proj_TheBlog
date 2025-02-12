@@ -1,0 +1,68 @@
+.newsletter {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .stay-up-to-date {
+    color: #1c5cff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18.75px;
+    line-height: 22.69px;
+    margin-bottom: 8px;
+  }
+  
+  .newsletter-title {
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36.31px;
+    margin: 0 0 16px;
+  }
+  
+  .subscribe-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .email-input {
+    padding: 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    flex-grow: 1;
+    margin-right: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    color: #797979;
+  }
+  
+  .submit-button {
+    padding: 12px 24px;
+    background-color: #1c5cff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18.75px;
+    line-height: 22.69px;
+    cursor: pointer;
+  }
+  
+  .unsubscribe-text {
+    color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.15px;
+    margin-top: 8px;
+  }
+  
