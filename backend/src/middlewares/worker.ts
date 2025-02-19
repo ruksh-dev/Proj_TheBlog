@@ -34,13 +34,13 @@ const sendNewBlogNotification=async({
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-          user: 'sheeturao1@gmail.com',
-          pass: 'qjey xyyg waza cvvx'
+          user: 'YOUR_GMAIL',
+          pass: 'YOUR_PASSWD'
         }
       });
 const Link=`http://localhost:5173/posts/${blogId}`;
 const mailOptions = {
-    from: 'rukshrao11@gmail.com',
+    from: 'recipent_mail',
     to: useremail,
     subject: '',
     text: `Check out this new blog that we recommend you:`,
